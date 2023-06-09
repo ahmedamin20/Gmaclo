@@ -1,0 +1,39 @@
+:root {
+  --primary: #2d1d4b;
+}
+.textPrimary {
+  color: #2d1d4bc2 !important;
+}
+.hoverNav {
+  color: black;
+  background-color: transparent;
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+  text-align: center;
+  transition: all.8s;
+}
+.hoverNav:hover {
+  background-color: var(--primary);
+  color: white;
+}
+.primary-colorBtn {
+  background-color: var(--primary) !important;
+  color: white !important;
+  transition: all.8s !important;
+  border: 1px solid transparent !important;
+  border-radius: 8px;
+}
+.primary-colorBtn:hover {
+  background-color: transparent !important;
+  color: var(--primary) !important;
+  border: 1px solid var(--primary) !important;
+}
+@media (max-width: 990px) {
+  .DropdownMenu {
+    margin: auto !important;
+  }
+  .LoginDriveBtn {
+    width: 11%;
+    padding-left: 0.5rem;
+  }
+}
