@@ -10,19 +10,19 @@ const Footer = () => {
 
 
 
-            <section className=''>
-                <MDBContainer className='text-center text-md-start mt-5'>
-                    <MDBRow className='mt-3'>
 
-                        <LogoSocial />
+            <MDBContainer className='text-center text-md-start mt-5 p-5'>
+                <MDBRow className='mt-3'>
 
-                        <FooterNavigation />
+                    <LogoSocial />
+
+                    <FooterNavigation />
 
 
-                        <Download />
-                    </MDBRow>
-                </MDBContainer>
-            </section>
+                    <Download />
+                </MDBRow>
+            </MDBContainer>
+
 
             <div className='text-center p-4'>
                 © 2023 Copyright:{" "}

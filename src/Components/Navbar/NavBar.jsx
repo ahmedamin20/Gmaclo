@@ -52,8 +52,8 @@ export default function App() {
                         <MDBNavbarItem>
                             <MDBNavbarLink href='#'><Link to="faq" className='hoverNav'>FAQ</Link></MDBNavbarLink>
                         </MDBNavbarItem>
-                        <MDBNavbarItem className='LoginDriveBtn p-auto primary-colorBtn'>
-                            <MDBNavbarLink style={{ color: "white" }} href='#'><Link to="/loginDriver" style={{ color: 'inherit' }}>Login Driver</Link></MDBNavbarLink>
+                        <MDBNavbarItem className='LoginDriveBtn p-auto'>
+                            <MDBNavbarLink className='primary-colorBtn' href='#'><Link to="/loginDriver" style={{ color: 'inherit' }}>Login Driver</Link></MDBNavbarLink>
                         </MDBNavbarItem>
                         <MDBDropdown>
                             <MDBDropdownToggle tag='a' className='nav-link' role='button'>

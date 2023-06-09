@@ -7,7 +7,7 @@ import appStore from "../Footer/imgs/AppStore.png";
 const Download = () => {
     return (
         <MDBCol md='4' lg='3' xl='3' className='mx-auto mb-md-0 mb-4'>
-            <h6 className='text-uppercase fw-bold mb-4'>Download</h6>
+            <h6 className='text-uppercase fw-bold mb-4'>Download App</h6>
             <Link href="https://play.google.com/store/apps" className='mt-2' rel="">
                 <MDBRipple rippleTag='a'>
                     <img

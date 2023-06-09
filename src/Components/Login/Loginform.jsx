@@ -16,8 +16,8 @@ const LonginForm = () => {
                         Welcome to Login Driver!
                     </h4>
                     <form>
-                        <MDBInput wrapperClass='mb-4' label='Email' id='form1' type='Phone' />
-                        <MDBInput wrapperClass='mb-4' label='Password' id='form1' type='password' />
+                        <MDBInput wrapperClass='mb-4' label='Phone' id='Phone' type='Phone' />
+                        <MDBInput wrapperClass='mb-4' label='Password' id='password' type='password' />
                         <MDBBtn className='w-100 mb-4 primary-colorBtn' size='md' type='submit'>Login</MDBBtn>
                     </form>
                 </MDBCardBody>

@@ -19,7 +19,7 @@
 .primary-colorBtn {
   background-color: var(--primary) !important;
   color: white !important;
-  transition: all.8s !important;
+  transition: all.8s ease-in-out !important;
   border: 1px solid transparent !important;
   border-radius: 8px;
 }
